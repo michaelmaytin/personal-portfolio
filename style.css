@@ -1,0 +1,80 @@
+body {
+	margin: 25px;
+	dipslay: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-header {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.main-header h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: blue;
+}
+
+.main-header p {
+	border: 1px solid #ccc;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.personal-projects-section {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.personal-projects-section h1 {
+	font-size: 50px;
+	font-weight: 700px;
+	color: purple;
+}
+
+.project0 {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.project1 {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.project2 {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.social-media-section {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.social-media-section h1 {
+	font-size: 50px;
+	font-weight: 700px;
+	color: purple
+}
+
+.socials0 {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px
+}
+
+.socials1 {
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+
