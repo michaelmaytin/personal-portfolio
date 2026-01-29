@@ -15,10 +15,65 @@ body {
 	position: relative;
 }
 
-.menu-button {
+.dropdown {
 	position: absolute;
 	top: 10px;
 	left: 10px;
+}
+
+.dropdown button {
+	background: gold;
+	color: red;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	border: 1px solid red;
+	border-radius: 4px
+}
+
+.dropdown a {
+	display: block;
+	color: red;
+	background-color: gold;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+
+.dropdown .content {
+	display: block;
+	opacity: 0;
+	tranform: translateY(-8px);
+	visibility: hidden;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	position: absolute;
+	background-color: gold;
+	min-width: 140px;
+}
+
+.dropdown:hover .content {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
+	pointer-events: auto;
+	transition: all 0.3s ease;
+	border: 1px solid gold;
+	border-radius: 4px;
+}
+
+.dropdown:hover button {
+	background-color: red;
+	color: gold;
+	font-weight: 850;
+	border: 1px solid gold;
+	transform: scale(1.05);
+	transition: all 0.3s ease;
+}
+
+.dropdown a:hover {
+	background-color: red;
+	color: gold;
+	transition: all 0.3s ease;
 }
 
 .main-header {
