@@ -1,9 +1,7 @@
 body {
-	background: black;
+	background: #FFD6FF;
 	color: white;
-	dipslay: flex;
-	justify-content: center;
-	align-items: center;
+
 }
 
 .webpage-body {
@@ -11,29 +9,15 @@ body {
 	max-width: 1400px;
 	margin: 0 auto;
 	padding: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-.top-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	position: relative;
-	z-index: 1;
-	border-radius: 32px;
-	background: #6900cc;
-	padding: 48px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
-	border: 1px solid pink;
 }
 
 .dropdown {
@@ -66,7 +50,7 @@ body {
 .dropdown .content {
 	display: block;
 	opacity: 0;
-	tranform: translateY(-8px);
+	transform: translateY(-8px);
 	visibility: hidden;
 	pointer-events: none;
 	transition: all 0.3s ease;
@@ -102,33 +86,29 @@ body {
 	transition: all 0.3s ease;
 }
 
-.photo-frame0 {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	border: 4px solid white;
-	box-shadow: 
-	    4px 4px 2px gold,
-	    8px 8px 2px #cc0066,
-	    12px 12px 2px #00ff99,
-	    8px 8px 16px black;
-}
-
-.photo-frame0 img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
-
 .main-header {
-	background: #6900cc;
+	background: #BF72F0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-text: center;
 	border-radius: 8px
+}
+
+.top-container {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	border-radius: 32px;
+	background: #BF72F0;
+	padding: 48px;
+	box-shadow:
+	    8px 3px 2px gold,
+	    16px 6px 2px #cc0066,
+	    24px 9px 2px #00ff99;
+	border: 4px solid white;
 }
 
 .main-header h1 {
@@ -144,13 +124,13 @@ body {
 
 @keyframes float{
 	0%, 100% {transform: translateY(5px);}
-	50% { transform: translateY(-15px);}
+	50% { transform: translateY(-5px);}
  }
 
 .sub-header {
 	display: flex;
 	justify-content: center;
-	border: 1px solid white;
+	border: 4px solid white;
 	border-radius: 16px;
 }
 
@@ -165,35 +145,16 @@ body {
 	font-family: "Pacifico", cursive;
 }
 
-.photo-frame1 {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	border: 4px solid white;
-	box-shadow: 
-	    4px 4px 2px gold,
-	    8px 8px 2px #cc0066,
-	    12px 12px 2px #00ff99,
-	    8px 8px 16px black;
-}
-
-.photo-frame1 img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
-
 .personal-projects-section {
 	border-radius: 32px;
 	margin-top: 75px;
-	background: #6900cc;
+	background: #BF72F0;
 	padding: 24px;
 	box-shadow:
 	    8px 3px 2px gold,
 	    16px 6px 2px #cc0066,
 	    24px 9px 2px #00ff99;
+	border: 4px solid white;
 }
 
 .personal-projects-section h1 {
@@ -216,24 +177,47 @@ body {
 }
 
 .projects-grid img {
-	width: 300px;
-	height: 300px;
+	width: 340px;
+	height: 340px;
+	border-radius: 32px;
+	border: 4px solid white;
+}
+
+.projects-grid button {
+	padding: 24px;
+	margin: 24px;
+	border-radius: 16px;
+}
+
+.projects-grid div {
+	margin: 32px;
+}
+
+.projects-grid h3 {
+	font-size: 30px;
+	font-weight: 850;
+	color: gold;
+	text-shadow:
+	    2px 2px 0 red,
+	    4px 4px 0 #00ff99;
+	font-family: "Pacifico", cursive;
 }
 
 .project0 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+
 .project1 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -241,9 +225,9 @@ body {
 }
 
 .project2 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -251,9 +235,9 @@ body {
 }
 
 .project3 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -261,9 +245,9 @@ body {
 }
 
 .project4 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -271,9 +255,9 @@ body {
 }
 
 .project5 {
-	border: 1px solid #ccc;
+	border: 4px solid white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -283,12 +267,13 @@ body {
 .social-media-section {
 	border-radius: 32px;
 	margin-top: 75px;
-	background: #6900cc; 
+	background: #BF72F0;
 	padding: 24px;
 	box-shadow:
 	    8px 3px 2px gold,
 	    16px 6px 2px #cc0066,
 	    24px 9px 2px #00ff99;
+	border: 4px solid white;
 }
 
 .social-media-section h1 {
