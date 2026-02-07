@@ -184,9 +184,21 @@ body {
 }
 
 .projects-grid button {
-	padding: 24px;
+	padding: 16px;
 	margin: 24px;
 	border-radius: 16px;
+	border: 4px black solid;
+	font-weight: bold;
+	background: #FF6957;
+	color: black; 
+}
+
+.projects-grid button:hover {
+	transform: scale(1.25);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px red solid;
+	color: red;
 }
 
 .projects-grid div {
