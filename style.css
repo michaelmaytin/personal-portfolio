@@ -86,15 +86,11 @@ body {
 	transition: all 0.3s ease;
 }
 
-.main-header {
-	background: #BF72F0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-text: center;
-	border-radius: 8px
-}
 
+
+
+
+/*Main title*/
 .top-container {
 	display: inline-flex;
 	flex-direction: row;
@@ -109,6 +105,15 @@ body {
 	    16px 6px 2px #cc0066,
 	    24px 9px 2px #00ff99;
 	border: 4px solid white;
+}
+
+.main-header {
+	background: #BF72F0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-text: center;
+	border-radius: 8px
 }
 
 .main-header h1 {
@@ -145,7 +150,12 @@ body {
 	font-family: "Pacifico", cursive;
 }
 
-.personal-projects-section {
+
+
+
+
+/*Biography*/
+.bio-container {
 	border-radius: 32px;
 	margin-top: 75px;
 	background: #BF72F0;
@@ -157,7 +167,70 @@ body {
 	border: 4px solid white;
 }
 
-.personal-projects-section h1 {
+.bio-container h1 {
+	font-size: 50px;
+	font-weight: 850;
+	color: gold;
+	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;font-family: "Pacifico", cursive;
+}
+
+.bio-container p {
+	font-size: 28px;
+}
+
+
+
+
+
+/*Resume*/
+.resume-container {
+	border-radius: 32px;
+	margin-top: 75px;
+	background: #BF72F0;
+	padding: 24px;
+	box-shadow:
+	    8px 3px 2px gold,
+	    16px 6px 2px #cc0066,
+	    24px 9px 2px #00ff99;
+	border: 4px solid white;
+}
+
+.resume-container h1 {
+	font-size: 50px;
+	font-weight: 850;
+	color: gold;
+	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;font-family: "Pacifico", cursive;
+}
+
+.resume-container img {
+	border: 4px solid black;
+	border-radius: 32px;
+	width: 1200px;
+	height: auto;
+	margin: 64px;
+}
+
+
+
+
+
+.personal-projects-container {
+	border-radius: 32px;
+	margin-top: 75px;
+	background: #BF72F0;
+	padding: 24px;
+	box-shadow:
+	    8px 3px 2px gold,
+	    16px 6px 2px #cc0066,
+	    24px 9px 2px #00ff99;
+	border: 4px solid white;
+}
+
+.personal-projects-container h1 {
 	font-size: 50px;
 	font-weight: 850;
 	color: gold;
@@ -189,12 +262,11 @@ body {
 	border-radius: 16px;
 	border: 4px black solid;
 	font-weight: bold;
-	background: #FF6957;
-	color: black; 
+	background: indianred;
 }
 
 .projects-grid button:hover {
-	transform: scale(1.25);
+	transform: scale(1.10);
 	background: white;
 	transition: all 0.3s ease;
 	border: 4px red solid;
@@ -276,7 +348,12 @@ body {
 	align-items: center;
 }
 
-.social-media-section {
+
+
+
+
+/*Social Media Links*/
+.social-media-container {
 	border-radius: 32px;
 	margin-top: 75px;
 	background: #BF72F0;
@@ -288,7 +365,7 @@ body {
 	border: 4px solid white;
 }
 
-.social-media-section h1 {
+.social-media-container h1 {
 	font-size: 50px;
 	font-weight: 850;
 	color: gold;
@@ -325,4 +402,29 @@ body {
 	border: 1px solid #ccc;
 	padding: 8px;
 	border-radius: 8px;
+}
+
+
+
+
+/*Contact Form*/
+.contact-container {
+	border-radius: 32px;
+	margin-top: 75px;
+	background: #BF72F0;
+	padding: 24px;
+	box-shadow:
+	    8px 3px 2px gold,
+	    16px 6px 2px #cc0066,
+	    24px 9px 2px #00ff99;
+	border: 4px solid white;
+}
+
+.contact-container h1 {
+	font-size: 50px;
+	font-weight: 850;
+	color: gold;
+	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;font-family: "Pacifico", cursive;
 }
