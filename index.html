@@ -7,6 +7,9 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="webpage-body">
@@ -14,11 +17,11 @@
 			<div class="dropdown">
 				<button>Menu</button>
 				<div class="content">
-					<a href="">Bio</a>
+					<a href="#bio">Bio</a>
 					<a href="">Resume</a>
-					<a href="">Personal Projects</a>
-					<a href="">Socials</a>
-					<a href="">Contact Me</a>
+					<a href="#personal-projects">Personal Projects</a>
+					<a href="#contacts">Contact Me</a>
+					<a href="#social-media">Socials</a>
 				</div>
 			</div>
 
@@ -31,7 +34,7 @@
 				</div>
 			</div>
 
-			<div class="bio-container">
+			<div class="bio-container" id="bio">
 				<h1>Bio</h2>
 				<p>
 				Hello, Beautiful People <br><br>
@@ -39,13 +42,15 @@
 				If you have any questions feel free to contact me using the form below<br>
 				</p>
 			</div>
-
+			
+			<!--
 			<div class="resume-container">
 				<h1>Resume</h1>
 				<img src="fakeresume.jpg">
 			</div>
+			-->
 
-			<div class="personal-projects-container">
+			<div class="personal-projects-container" id=personal-projects>
 				<h1>Personal Projects</h1>
 				<div class=projects-grid>	
 					<div class="project0">
@@ -80,19 +85,42 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="social-media-container">
-				<h1>Socials</h1>
-				<div class="socials-grid">
-					<div class="socials0">1</div>
-					<div class="socials1">2</div>
-					<div class="socials2">3</div>
-					<div class="socials3">4</div>
+
+			<div class="contact-container" id="contacts">
+				<h1>Contact Me<h1>
+				<div class="message-grid">
+					<input id="email" placeholder="Email..."></textarea>
+					<textarea rows="10" placeholder="What would you like to say..."></textarea>
+					<button>Send</button>
 				</div>
 			</div>
 
-			<div class="contact-container">
-				<h1>Contact Me<h1>
+			<div class="social-media-container" id="social-media">
+				<h1>Socials</h1>
+				<div class="socials-grid">
+					<div class="socials0">
+						<h3>Github</h3>
+						<img src="github.png">
+						<button>?</button>
+					</div>
+					<div class="socials1">
+						<h3>LinkedIn</h3>
+						<img src="linkedin.webp">
+						<button>?</button>
+					</div>
+					
+					<div class="socials2">
+						<h3>Youtube</h3>
+						<img src="youtube.jpg">
+						<button>?</button>
+					</div>
+					
+					<div class="socials3">
+						<h3>Instagram</h3>
+						<img src="Instagram.png">
+						<button>?</button>
+					</div>
+				</div>
 			</div>
 		</div>
 
