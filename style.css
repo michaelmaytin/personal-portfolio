@@ -18,12 +18,6 @@ body {
 	align-items: center;
 }
 
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .dropdown {
 	position: absolute;
 	top: 20px;
@@ -105,10 +99,6 @@ body {
 	border-radius: 32px;
 	background: #FF9F7D;
 	padding: 48px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
 	border: 4px solid white;
 }
 
@@ -137,10 +127,10 @@ body {
 
 .sub-header h2 {
 	margin: 16px;
-	font-size: 35px;
-	font-weight: 850;	
+	font-size: 20px;
+	font-weight: 400;	
 	color: white;
-	font-family: "Pacifico", cursive;
+	font-family: "Roboto Mono", monospace;
 }
 
 
@@ -153,10 +143,6 @@ body {
 	margin-top: 75px;
 	background: #E6A1A1;
 	padding: 24px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
 	border: 4px solid white;
 }
 
@@ -171,49 +157,12 @@ body {
 }
 
 .bio-container p {
-	font-size: 35px;
-	font-family: "Pacifico", cursive;
+	font-size: 20px;
+	font-family: "Roboto Mono", monospace;
 	border: 4px solid white;
 	border-radius: 16px;
-	padding: 8px;
+	padding: 16px;
 }
-
-
-
-
-
-/*Resume*/
-.resume-container {
-	border-radius: 32px;
-	margin-top: 75px;
-	background: #E6B8FF;
-	padding: 24px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
-	border: 4px solid white;
-}
-
-.resume-container h1 {
-	font-size: 50px;
-	font-weight: 850;
-	color: gold;
-	text-shadow:
-	    4px 8px 2px #cc0066,
-	    8px 12px 2px #00ff99;
-	font-family: "Pacifico", cursive;
-}
-
-.resume-container img {
-	border: 4px solid white;
-	border-radius: 12px;
-	width: 1200px;
-	height: auto;
-	margin: 64px;
-}
-
-
 
 
 
@@ -235,13 +184,9 @@ body {
 .personal-projects-container {
 	border-radius: 32px;
 	margin-top: 75px;
-	background: #A1D4D2;
+	background: #D6AEC0;
 	padding: 24px;
-/*	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
-*/	border: 4px solid white;
+	border: 4px solid white;
 }
 
 .personal-projects-container h1 {
@@ -264,27 +209,27 @@ body {
 }
 
 .projects-grid img {
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	border-radius: 32px;
 	border: 4px solid white;
-	margin: 48px;
+	margin: 16px;
 }
 
 .projects-grid button {
-	padding: 24px;
-	margin: ;
+	padding: 12px;
 	border-radius: 16px;
 	border: 4px white solid;
 	font-weight: bold;
 	font-size: 20px;
 	background: #E8E8E8;
 	color: white;
-	margin-bottom: 36px;
+	margin-top: 8px;
+	margin-bottom: 32px;
 }
  
 .projects-grid div {
-	margin: 48px;
+	margin: 32px;
 	background: white;
 }
 
@@ -292,19 +237,21 @@ body {
 	font-size: 25px;
 	font-weight: 850;
 	color: #E8E8E8;
-/*	text-shadow:
-	    4px 8px 2px #cc0066,
-	    8px 12px 2px #00ff99;
-*/	font-family: "Roboto Mono", monospace;
+	font-family: "Roboto Mono", monospace;
 	border-radius: 24px;
-/*	background: black;
-*/	padding: 24px;
-	margin-top:48px;
+	padding: 12px;
+}
+
+.projects-grid h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: #E8E8E8;
+	font-family: "Roboto Mono", monospace;
+	padding: 6px;
 }
 
 .project0 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
@@ -314,6 +261,10 @@ body {
 }
 
 .project0 h3 {
+	transition: 0.3s ease;
+}
+
+.project0 h4 {
 	transition: 0.3s ease;
 }
 
@@ -348,19 +299,34 @@ body {
 */	padding: 24px;
 }
 
+.project0:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
 
 .project1 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.3s ease;
+	transition: 0.3s ease;
 }
 
 .project1 h3 {
+	transition: 0.3s ease;
+}
+
+.project1 h4 {
 	transition: 0.3s ease;
 }
 
@@ -372,13 +338,10 @@ body {
 	border: 4px solid black;
 }
 
-.project1:hover {
-	border: 4px solid black;
-}
-
 .project1:hover button {
 	transform: scale(1.10);
 	background: white;
+	transition: all 0.3s ease;
 	border: 4px #FFB3B3 solid;
 	color: red;
 	cursor: pointer;
@@ -398,9 +361,22 @@ body {
 */	padding: 24px;
 }
 
+.project1:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
+
 .project2 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
@@ -413,12 +389,12 @@ body {
 	transition: 0.3s ease;
 }
 
-.project2 button {
+.project2 h4 {
 	transition: 0.3s ease;
 }
 
-.project2:hover {
-	border: 4px solid black;
+.project2 button {
+	transition: 0.3s ease;
 }
 
 .project2:hover {
@@ -448,9 +424,22 @@ body {
 */	padding: 24px;
 }
 
+.project2:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
+
 .project3 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
@@ -458,17 +447,19 @@ body {
 	align-items: center;
 	transition: 0.3s ease;
 }
-.project0 h3 {
+
+.project3 h3 {
 	transition: 0.3s ease;
 }
 
-.project0 button {
+.project3 h4 {
 	transition: 0.3s ease;
 }
 
-.project0:hover {
-	border: 4px solid black;
+.project3 button {
+	transition: 0.3s ease;
 }
+
 .project3:hover {
 	border: 4px solid black;
 }
@@ -495,59 +486,155 @@ body {
 	background: #E8E8E8;
 */	padding: 24px;
 }
-.project0 h3 {
+
+.project3:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
+.project3 h3 {
 	transition: 0.3s ease;
 }
 
-.project0 button {
+.project3 button {
 	transition: 0.3s ease;
 }
 
-.project0:hover {
+.project3:hover {
 	border: 4px solid black;
 }
+
 .project4 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-.project0 h3 {
 	transition: 0.3s ease;
 }
 
-.project0 button {
+.project4 h3 {
 	transition: 0.3s ease;
 }
 
-.project0:hover {
+.project4 h4 {
+	transition: 0.3s ease;
+}
+
+.project4 button {
+	transition: 0.3s ease;
+}
+
+.project4:hover {
 	border: 4px solid black;
 }
+
+.project4:hover button {
+	transform: scale(1.10);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.project4:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
+.project4:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
 .project5 {
 	border: 4px solid white;
-	padding: 8px;
 	border-radius: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-.project0 h3 {
 	transition: 0.3s ease;
 }
 
-.project0 button {
+.project5 h3 {
 	transition: 0.3s ease;
 }
 
-.project0:hover {
+.project5 h4 {
+	transition: 0.3s ease;
+}
+
+.project5 button {
+	transition: 0.3s ease;
+}
+
+.project5:hover {
 	border: 4px solid black;
 }
 
+.project5:hover button {
+	transform: scale(1.10);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
 
+.project5:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+
+.project5:hover h4 {
+	font-size: 15px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
 
 
 
@@ -571,10 +658,6 @@ body {
 	margin-top: 75px;
 	background: #DAABDE;
 	padding: 24px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
 	border: 4px solid white;
 	width: 1350px;
 }
@@ -650,10 +733,6 @@ body {
 	margin-top: 75px;
 	background: #D9C59A;
 	padding: 24px;
-	box-shadow:
-	    8px 3px 2px gold,
-	    16px 6px 2px #cc0066,
-	    24px 9px 2px #00ff99;
 	border: 4px solid white;
 	width: 1350px;
 }
