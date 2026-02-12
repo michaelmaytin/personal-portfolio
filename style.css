@@ -217,16 +217,31 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Yap*/
 .personal-projects-container {
 	border-radius: 32px;
 	margin-top: 75px;
 	background: #A1D4D2;
 	padding: 24px;
-	box-shadow:
+/*	box-shadow:
 	    8px 3px 2px gold,
 	    16px 6px 2px #cc0066,
 	    24px 9px 2px #00ff99;
-	border: 4px solid white;
+*/	border: 4px solid white;
 }
 
 .personal-projects-container h1 {
@@ -245,50 +260,46 @@ body {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .projects-grid img {
-	width: 340px;
-	height: 340px;
+	width: 400px;
+	height: 400px;
 	border-radius: 32px;
 	border: 4px solid white;
+	margin: 48px;
 }
 
 .projects-grid button {
-	padding: 16px;
-	margin: 24px;
+	padding: 24px;
+	margin: ;
 	border-radius: 16px;
 	border: 4px white solid;
 	font-weight: bold;
-	background: white;
+	font-size: 20px;
+	background: #E8E8E8;
+	color: white;
+	margin-bottom: 36px;
 }
-
-.projects-grid button:hover {
-	transform: scale(1.10);
-	background: white;
-	transition: all 0.3s ease;
-	border: 4px red solid;
-	color: red;
-	cursor: pointer;
-}
-
+ 
 .projects-grid div {
-	margin: 32px;
+	margin: 48px;
 	background: white;
 }
 
 .projects-grid h3 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 850;
-	color: gold;
-	text-shadow:
+	color: #E8E8E8;
+/*	text-shadow:
 	    4px 8px 2px #cc0066,
 	    8px 12px 2px #00ff99;
-	font-family: "Pacifico", cursive;
-	border-radius: 64px;
-	background: black;
-	padding: 24px;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+/*	background: black;
+*/	padding: 24px;
+	margin-top:48px;
 }
 
 .project0 {
@@ -299,6 +310,42 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s ease;
+}
+
+.project0 h3 {
+	transition: 0.3s ease;
+}
+
+.project0 button {
+	transition: 0.3s ease;
+}
+
+.project0:hover {
+	border: 4px solid black;
+}
+
+.project0:hover button {
+	transform: scale(1.10);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.project0:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
 }
 
 
@@ -310,6 +357,45 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.project1 h3 {
+	transition: 0.3s ease;
+}
+
+.project1 button {
+	transition: 0.3s ease;
+}
+
+.project1:hover {
+	border: 4px solid black;
+}
+
+.project1:hover {
+	border: 4px solid black;
+}
+
+.project1:hover button {
+	transform: scale(1.10);
+	background: white;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.project1:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
 }
 
 .project2 {
@@ -320,6 +406,46 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s ease;
+}
+
+.project2 h3 {
+	transition: 0.3s ease;
+}
+
+.project2 button {
+	transition: 0.3s ease;
+}
+
+.project2:hover {
+	border: 4px solid black;
+}
+
+.project2:hover {
+	border: 4px solid black;
+}
+
+.project2:hover button {
+	transform: scale(1.10);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.project2:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
 }
 
 .project3 {
@@ -330,8 +456,56 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s ease;
+}
+.project0 h3 {
+	transition: 0.3s ease;
 }
 
+.project0 button {
+	transition: 0.3s ease;
+}
+
+.project0:hover {
+	border: 4px solid black;
+}
+.project3:hover {
+	border: 4px solid black;
+}
+
+.project3:hover button {
+	transform: scale(1.10);
+	background: white;
+	transition: all 0.3s ease;
+	border: 4px #FFB3B3 solid;
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.project3:hover h3 {
+	font-size: 25px;
+	font-weight: 850;
+	color: black;
+/*	text-shadow:
+	    4px 8px 2px #cc0066,
+	    8px 12px 2px #00ff99;
+*/	font-family: "Roboto Mono", monospace;
+	border-radius: 24px;
+	background: #E8E8E8;
+*/	padding: 24px;
+}
+.project0 h3 {
+	transition: 0.3s ease;
+}
+
+.project0 button {
+	transition: 0.3s ease;
+}
+
+.project0:hover {
+	border: 4px solid black;
+}
 .project4 {
 	border: 4px solid white;
 	padding: 8px;
@@ -341,7 +515,17 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.project0 h3 {
+	transition: 0.3s ease;
+}
 
+.project0 button {
+	transition: 0.3s ease;
+}
+
+.project0:hover {
+	border: 4px solid black;
+}
 .project5 {
 	border: 4px solid white;
 	padding: 8px;
@@ -351,6 +535,31 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.project0 h3 {
+	transition: 0.3s ease;
+}
+
+.project0 button {
+	transition: 0.3s ease;
+}
+
+.project0:hover {
+	border: 4px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -469,13 +678,13 @@ body {
 .socials-grid h3 {
 	font-size: 30px;
 	font-weight: 850;
-	color: gold;
-	text-shadow:
+	color: white;
+/*	text-shadow:
 	    4px 8px 2px #cc0066,
 	    8px 12px 2px #00ff99;
-	font-family: "Pacifico", cursive;
+*/	font-family: "Roboto Mono", monospace;
 	border-radius: 64px;
-	background: black;
+	background: white;
 	padding: 24px;
 }
 
